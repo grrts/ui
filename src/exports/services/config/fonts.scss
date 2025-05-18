@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+#app {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+    --font-family-roboto: "Roboto", sans-serif;
+
+    --font-weight--thin: 100;
+    --font-weight--extra-light: 200;
+    --font-weight--light: 300;
+    --font-weight--regular: 400;
+    --font-weight--medium: 500;
+    --font-weight--semibold: 600;
+    --font-weight--bold: 700;
+    --font-weight--extra-bold: 800;
+    --font-weight--black: 900;
+
+    & .font-weight--thin {
+        font-weight: var(--font-weight--thin);
+    }
+
+    & .font-weight--extra-light {
+        font-weight: var(--font-weight--extra-light);
+    }
+
+    & .font-weight--light {
+        font-weight: var(--font-weight--light);
+    }
+
+    & .font-weight--regular {
+        font-weight: var(--font-weight--regular);
+    }
+
+    & .font-weight--medium {
+        font-weight: var(--font-weight--medium);
+    }
+
+    & .font-weight--semibold {
+        font-weight: var(--font-weight--semibold);
+    }
+
+    & .font-weight--bold {
+        font-weight: var(--font-weight--bold);
+    }
+
+    & .font-weight--extra-bold {
+        font-weight: var(--font-weight--extra-bold);
+    }
+
+    & .font-weight--black {
+        font-weight: var(--font-weight--black);
+    }
+}
