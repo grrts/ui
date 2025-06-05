@@ -44,5 +44,8 @@
   },
   "exports": [
     "./src/exports"
+  ],
+  "files": [
+    "src/exports"
   ]
 }

@@ -96,7 +96,7 @@ function changeData(data: Record<string, any>): void {
         ...data
     }
 
-    makeApp();
+    makeApp()
 }
 
 function makeApp() {
