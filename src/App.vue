@@ -41,6 +41,14 @@
                 <svg-icon :icon="CodeSvg" />
             </template>
         </vertical-navigation-button>
+        <vertical-navigation-button
+            :to="{ name: 'components' }"
+            label="Icons"
+        >
+            <template #icon>
+                <svg-icon :icon="IconsSvg" />
+            </template>
+        </vertical-navigation-button>
     </vertical-navigation>
 
     <router-view />
@@ -53,6 +61,7 @@ import VerticalNavigationButton from '@/exports/interface/navigation/VerticalNav
 import HomeSvg from '@grrts/icons/icon/fontawesome/v6/solid/house.svg';
 import CodeSvg from '@grrts/icons/icon/fontawesome/v6/solid/code.svg';
 import DownloadSvg from '@grrts/icons/icon/fontawesome/v6/solid/download.svg';
+import IconsSvg from '@grrts/icons/icon/fontawesome/v6/solid/icons.svg';
 import SvgIcon from '@/exports/services/icon/components/SvgIcon.vue'
 import { ref } from 'vue'
 

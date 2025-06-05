@@ -96,8 +96,7 @@ function changeData(data: Record<string, any>): void {
         ...data
     }
 
-    console.log(localData.value)
-    makeApp()
+    makeApp();
 }
 
 function makeApp() {
